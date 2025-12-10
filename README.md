@@ -25,16 +25,4 @@ python -m venv vsc_env
 # 가상 환경 활성화 (Windows 기준)
 .\vsc_env\Scripts\Activate
 
-✅ 확인: 터미널 프롬프트 앞에 (vsc_env)가 나타나야 합니다.
-
-2. 필수 라이브러리 설치 (필수)
-가상 환경이 활성화된 상태에서, 실행에 필요한 모든 라이브러리를 설치합니다. device_map="auto" 설정을 위해 accelerate 라이브러리가 반드시 포함되어야 합니다.
-pip install pandas numpy torch faiss-cpu rank-bm25 sentence-transformers transformers accelerate
-
-3. 데이터 준비
-스크립트가 로드할 수 있도록 크롤링 결과 파일인 **documents.json**을 프로젝트 루트 디렉터리(rag 폴더)에 위치시켜야 합니다.
-
-🚀 프로젝트 실행
-모든 라이브러리 설치가 완료되었다면, 메인 스크립트 파일을 실행합니다.
-python rag_system.py
 
