@@ -1,0 +1,4 @@
+vsc_env/
+hf_models/
+hf_datasets/
+__pycache__/
