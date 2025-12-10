@@ -15,3 +15,14 @@
 프로젝트 실행은 **Python 가상 환경** 내에서 진행하는 것을 권장합니다.
 
 ### 1. 가상 환경 생성 및 활성화
+
+프로젝트 폴더(`C:\Users\darkz\rag`)에서 터미널을 열고 다음 명령어를 실행합니다.
+
+```bash
+# 가상 환경 생성 (vsc_env 이름으로 생성)
+python -m venv vsc_env
+
+# 가상 환경 활성화 (Windows 기준)
+.\vsc_env\Scripts\Activate
+
+✅ 확인: 터미널 프롬프트 앞에 (vsc_env)가 나타나야 합니다.
